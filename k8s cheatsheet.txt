@@ -1,0 +1,21 @@
+k8s cheatsheet
+
+kubectl apply -f platforms-depl.yaml
+
+kubectl get deployments
+
+kubectl get pods
+
+kubectl get services
+
+kubectl delete deployment platforms-depl
+
+ kubectl create secret generic mssql --from-literal=SA_PASSWORD="Teste123"
+
+kubectl rollout restart deployment platforms-depl
+
+kubectl get namespace
+
+kubectl get pods --namespace=ingress-nginx
+
+kubectl get services --namespace=ingress-nginx
